@@ -93,6 +93,7 @@ aside a:hover {
 /* Albums */
 
 .album {
+  position: relative;
   display: inline;
   float: left;
   margin: 10px 0 25px;
@@ -103,3 +104,20 @@ aside a:hover {
 .album:hover {
   background-color: #fff;
 }
+
+.album .info {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  width: 160px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+
+
+
